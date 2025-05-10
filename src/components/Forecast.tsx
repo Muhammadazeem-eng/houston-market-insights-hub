@@ -14,7 +14,7 @@ const expertComments: ExpertComment[] = [
   {
     name: "Dr. Sarah Johnson",
     role: "Chief Economist",
-    comment: "Houston's housing market is showing remarkable resilience despite national economic pressures. We expect continued growth through 2025, though at a more moderate pace than the previous two years.",
+    comment: "Mark's housing market is showing remarkable resilience despite national economic pressures. We expect continued growth through 2025, though at a more moderate pace than the previous two years.",
     date: "May 5, 2025"
   },
   {
@@ -26,7 +26,7 @@ const expertComments: ExpertComment[] = [
   {
     name: "Lisa Chen",
     role: "Housing Policy Director",
-    comment: "Recent zoning changes in Houston's inner loop should gradually increase housing density and help moderate price increases in these high-demand areas by late 2025.",
+    comment: "Recent zoning changes in Mark's inner loop should gradually increase housing density and help moderate price increases in these high-demand areas by late 2025.",
     date: "April 28, 2025"
   }
 ];
