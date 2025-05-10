@@ -4,20 +4,26 @@ import { Button } from '@/components/ui/button';
 
 const Hero: React.FC = () => {
   return (
-    <div className="bg-gradient-to-r from-market-blue to-market-lightblue text-white py-16 md:py-24">
-      <div className="container mx-auto px-4">
+    <div className="bg-gradient-to-r from-market-gradient1 to-market-gradient2 text-white py-16 md:py-24 relative overflow-hidden">
+      {/* Background decorative elements */}
+      <div className="absolute inset-0 overflow-hidden">
+        <div className="absolute top-[20%] left-[10%] w-64 h-64 rounded-full bg-blue-500/10 blur-3xl animate-float"></div>
+        <div className="absolute top-[30%] right-[15%] w-72 h-72 rounded-full bg-indigo-500/10 blur-3xl animate-float delay-1000"></div>
+      </div>
+
+      <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl animate-fade-in">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4 gradient-text">
             Houston Housing Market Trends & Insights – 2025
           </h1>
-          <p className="text-lg md:text-xl opacity-90 mb-8">
+          <p className="text-lg md:text-xl opacity-90 mb-8 text-gray-200">
             Stay ahead of market shifts with real-time analytics and forecasts. Make informed decisions with our comprehensive market analysis.
           </p>
           <div className="flex flex-wrap gap-4">
-            <Button className="bg-white text-market-blue hover:bg-gray-100">
+            <Button className="bg-white/15 backdrop-blur-sm border border-white/20 text-white hover:bg-white/25 hover:scale-105 transition-all">
               Download Full Report
             </Button>
-            <Button variant="outline" className="border-white text-white hover:bg-white/10">
+            <Button variant="outline" className="border-white/20 text-white hover:bg-white/10 hover:scale-105 transition-all">
               Subscribe for Updates
             </Button>
           </div>

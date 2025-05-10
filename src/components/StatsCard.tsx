@@ -19,15 +19,15 @@ const StatsCard: React.FC<StatsCardProps> = ({
   description
 }) => {
   return (
-    <Card className="stat-card hover-card-animation">
+    <Card className="stat-card glass-card hover-card-animation">
       <h3 className="card-heading">{title}</h3>
       <div className="flex items-baseline gap-2">
-        <span className="text-3xl font-bold">{value}</span>
+        <span className="text-3xl font-bold text-white">{value}</span>
         {change && (
           <div className={`flex items-center ${
-            trend === 'up' ? 'text-green-500' : 
-            trend === 'down' ? 'text-red-500' : 
-            'text-gray-500'
+            trend === 'up' ? 'text-green-400' : 
+            trend === 'down' ? 'text-red-400' : 
+            'text-gray-400'
           }`}>
             {trend === 'up' && <ArrowUp className="h-4 w-4 mr-1" />}
             {trend === 'down' && <ArrowDown className="h-4 w-4 mr-1" />}
@@ -35,7 +35,7 @@ const StatsCard: React.FC<StatsCardProps> = ({
           </div>
         )}
       </div>
-      {description && <p className="text-sm text-gray-500 mt-2">{description}</p>}
+      {description && <p className="text-sm text-gray-300 mt-2">{description}</p>}
     </Card>
   );
 };

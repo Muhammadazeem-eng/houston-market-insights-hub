@@ -7,10 +7,11 @@ import ChartSection from '@/components/ChartSection';
 import Forecast from '@/components/Forecast';
 import Newsletter from '@/components/Newsletter';
 import Footer from '@/components/Footer';
+import Chatbot from '@/components/Chatbot';
 
 const Index: React.FC = () => {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col bg-market-dark text-foreground">
       <Header />
       <Hero />
       <MarketStats />
@@ -18,6 +19,7 @@ const Index: React.FC = () => {
       <Forecast />
       <Newsletter />
       <Footer />
+      <Chatbot />
     </div>
   );
 };

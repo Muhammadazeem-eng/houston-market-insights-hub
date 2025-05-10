@@ -68,7 +68,11 @@ export default {
 					lightblue: '#4285f4',
 					gray: '#f5f5f5',
 					darkgray: '#8E9196',
-					lightgray: '#e0e0e0'
+					lightgray: '#e0e0e0',
+					dark: '#1A1F2C',
+					darkblue: '#2C3E50',
+					gradient1: '#141E30',
+					gradient2: '#243B55',
 				}
 			},
 			borderRadius: {
@@ -102,16 +106,38 @@ export default {
 						opacity: '1',
 						transform: 'translateY(0)'
 					}
-				}
+				},
+				'pulse-slow': {
+					'0%, 100%': {
+						opacity: '1',
+					},
+					'50%': {
+						opacity: '0.5',
+					},
+				},
+				'float': {
+					'0%, 100%': {
+						transform: 'translateY(0)',
+					},
+					'50%': {
+						transform: 'translateY(-10px)',
+					},
+				},
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out',
-				'fade-in': 'fade-in 0.7s ease-out'
+				'fade-in': 'fade-in 0.7s ease-out',
+				'pulse-slow': 'pulse-slow 3s ease-in-out infinite',
+				'float': 'float 6s ease-in-out infinite',
 			},
 			fontFamily: {
 				'roboto': ['Roboto', 'sans-serif'],
 				'inter': ['Inter', 'sans-serif']
+			},
+			backgroundImage: {
+				'gradient-dark': 'linear-gradient(to right, var(--tw-gradient-stops))',
+				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
 			}
 		}
 	},
