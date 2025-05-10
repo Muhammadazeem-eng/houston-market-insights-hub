@@ -6,7 +6,7 @@ const MarketStats: React.FC = () => {
   return (
     <section id="market-stats" className="py-16 bg-market-dark">
       <div className="container mx-auto px-4">
-        <h2 className="section-heading text-center mb-12 gradient-text">Key Houston Market Statistics</h2>
+        <h2 className="section-heading text-center mb-12 gradient-text">Market Statistics</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           <StatsCard 
             title="Median Home Price" 

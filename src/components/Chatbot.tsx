@@ -14,7 +14,7 @@ type Message = {
 const initialMessages: Message[] = [
   {
     id: 1,
-    text: "Hello! I'm your Houston Housing Market assistant. How can I help you today?",
+    text: "Hello! I'm your  Market assistant. How can I help you today?",
     sender: 'bot',
     timestamp: new Date(),
   },
@@ -22,12 +22,12 @@ const initialMessages: Message[] = [
 
 // Sample responses for the chatbot
 const botResponses = [
-  "Currently, the Houston housing market is showing strong growth with median prices up 5.2% year-over-year.",
+  "Currently, the  housing market is showing strong growth with median prices up 5.2% year-over-year.",
   "The average days on market in Houston is currently 18 days, which is 3.5% faster than last quarter.",
-  "Houston's Inner Loop neighborhoods are seeing the highest price appreciation at around 7% annually.",
+  "Marks's Inner Loop neighborhoods are seeing the highest price appreciation at around 7% annually.",
   "Based on current trends, we predict a 4.5% increase in Houston home values over the next 12 months.",
   "Housing inventory in Houston is down 7.8% compared to last year, creating a competitive market for buyers.",
-  "The most active price point in Houston's market is $300,000-$450,000, which represents 42% of all sales.",
+  "The most active price point in Marks's market is $300,000-$450,000, which represents 42% of all sales.",
   "Interest rates have stabilized around 6.1%, which is helping to maintain buyer demand despite higher prices.",
   "New construction in Houston is up 3.2% year-over-year, helping to alleviate some inventory constraints.",
   "The Spring and Katy areas are currently the fastest-growing submarkets in the greater Houston region.",

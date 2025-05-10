@@ -31,7 +31,7 @@ const Newsletter: React.FC = () => {
           <div className="mb-6 md:mb-0 md:mr-8">
             <h2 className="text-2xl font-bold mb-2 gradient-text">Stay Updated with Market Trends</h2>
             <p className="text-white/90">
-              Subscribe to our newsletter for the latest Houston housing market insights and forecasts.
+              Subscribe to our newsletter for the latest housing market insights and forecasts.
             </p>
           </div>
           <form 
