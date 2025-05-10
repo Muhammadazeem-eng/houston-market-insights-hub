@@ -22,7 +22,7 @@ const StatsCard: React.FC<StatsCardProps> = ({
     <Card className="stat-card glass-card hover-card-animation">
       <h3 className="card-heading">{title}</h3>
       <div className="flex items-baseline gap-2">
-        <span className="text-3xl font-bold text-white">{value}</span>
+        <span className="text-3xl font-bold text-gray-100">{value}</span>
         {change && (
           <div className={`flex items-center ${
             trend === 'up' ? 'text-green-400' : 

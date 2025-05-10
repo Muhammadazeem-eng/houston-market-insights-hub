@@ -14,15 +14,12 @@ const Hero: React.FC = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl animate-fade-in">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4 gradient-text">
-            Houston Housing Market Trends & Insights – 2025
+            real estate market trends & insights
           </h1>
           <p className="text-lg md:text-xl opacity-90 mb-8 text-gray-200">
             Stay ahead of market shifts with real-time analytics and forecasts. Make informed decisions with our comprehensive market analysis.
           </p>
           <div className="flex flex-wrap gap-4">
-            <Button className="bg-white/15 backdrop-blur-sm border border-white/20 text-white hover:bg-white/25 hover:scale-105 transition-all">
-              Download Full Report
-            </Button>
             <Button variant="outline" className="border-white/20 text-white hover:bg-white/10 hover:scale-105 transition-all">
               Subscribe for Updates
             </Button>
